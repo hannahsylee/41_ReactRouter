@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <NavBar />
+        {/* <NavBar /> */}
         <Switch>
           <Route exact path="/">
             <VendingMachine />
           </Route>
-          <Route exact path="/soda">
+          <Route path="/soda">
             <Soda />
           </Route>
           <Route exact path="/chips">

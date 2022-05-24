@@ -1,0 +1,23 @@
+.Colors {
+    background-color: tomato;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+.Colors a {
+    padding: 0.5em 0;
+    width: 10em;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.Colors a:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.Colors a.active {
+    font-weight: bold;
+    color: black;
+}
